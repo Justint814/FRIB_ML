@@ -1,4 +1,4 @@
-from distulis.core import setup
+from distutils.core import setup
 
 setup(
 name = 'ML_package',
