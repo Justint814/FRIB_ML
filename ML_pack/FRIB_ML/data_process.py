@@ -1,4 +1,7 @@
 #This module is used for processing training data for training the machine learning model
+import h5py
+import skimage.transform
+import numpy as np
 
 #Function that takes h5 file and returns a processed numpy array
 def h5_process(file_name):
