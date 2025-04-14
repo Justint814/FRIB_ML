@@ -3,8 +3,11 @@ import h5py
 import skimage.transform
 import numpy as np
 
+class process:
+
 #Function that takes h5 file and returns a processed numpy array
-def h5_process(file_name):
+@classmethod
+def h5_process(cls,file_name):
 	with h5py.File(file_name, 'r') as f:
 		dataset = list(f.keys())[0]
 		a = np.array(f[dataset])
