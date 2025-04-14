@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 name = 'FRIB_ML',
 packages = ['FRIB_ML'],
-version = '0.2',
+version = '0.3',
 license = 'MIT',
 description = 'This package is used for creating training data and training a machine learning model for the FRIB level scheme project',
 author = 'Justin Traywick',
