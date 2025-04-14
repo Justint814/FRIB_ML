@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
 name = 'ML_package',
-packages = ['ML_package-0.1'],
+packages = ['ML_package'],
 version = '0.1',
 license = 'MIT',
 description = 'This package is used for creating training data and training a machine learning model for the FRIB level scheme project',
