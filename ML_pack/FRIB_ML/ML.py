@@ -11,23 +11,12 @@ import tensorflow as tf
 import FRIB_ML as ML
 
 #Functions:
-
-#Function that takes h5 file and returns a processed numpy array
-def h5_process(file_name):
-	with h5py.File(file_name, 'r') as f:
-		dataset = list(f.keys())[0]
-		a = np.array(f[dataset])
-		#Process array
-		array = skimage.transform.downscale_local_mean(a,(5,5))
-		f.close()
-		
-	return array
 	
 #Python generator zips together data and label images. Takes two numpy arrays of h5 file names
 def data_generator(h5_data,h5_labels):
 	for i,j in zip(h5_data, h5_labels):
-		a = h5_process(i)
-		b = h5_process(j)
+		a = ML.h5_process(i)
+		b = ML.h5_process(j)
 		
 		yield a,b
 
