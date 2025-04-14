@@ -1,7 +1,7 @@
 #This file is used to declare ML_package as a package containing the following functions in the ML_package namespace
 
 #Import data_process module functions. See data_process.py for more info on these functions
-from .data_process import h5_process
+from .data_process import process
 
 
 #Import ML module functions. See ML.py for more info on these functions.
