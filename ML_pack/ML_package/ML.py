@@ -8,7 +8,7 @@ import skimage.transform
 import os
 import math as m
 import tensorflow as tf
-import ML_package as ML
+import FRIB_ML as ML
 
 #Functions:
 
