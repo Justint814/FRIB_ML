@@ -1,8 +1,8 @@
 #This file is used to declare ML_package as a package containing the following functions in the ML_package namespace
 
 #Import ML module functions. See ML.py for more info on these functions.
-from .ML import data_generator
 from .ML import h5_process
+from .ML import data_generator
 from .ML import fetch_data
 from .ML import mm_norm
 from .ML import z_norm
