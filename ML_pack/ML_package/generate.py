@@ -1,4 +1,4 @@
-import ML_package as ML
+import FRIB_ML as ML
 import os
 import plotly.graph_objects as go
 import random
