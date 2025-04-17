@@ -9,14 +9,15 @@ import os
 import math as m
 import tensorflow as tf
 import FRIB_ML as ML
+from FRIB_ML.data_process import h5_process
 
 #Functions:
 	
 #Python generator zips together data and label images. Takes two numpy arrays of h5 file names
 def data_generator(h5_data,h5_labels):
 	for i,j in zip(h5_data, h5_labels):
-		a = ML.h5_process(i)
-		b = ML.h5_process(j)
+		a = h5_process(i)
+		b = h5_process(j)
 		
 		yield a,b
 
