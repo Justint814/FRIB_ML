@@ -1,6 +1,5 @@
 numpy
 tensorflow
-os
 random
 h5py
 math

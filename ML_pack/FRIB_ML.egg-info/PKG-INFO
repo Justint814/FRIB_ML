@@ -19,7 +19,6 @@ Classifier: Programming Language :: Python :: 3.6
 License-File: LICENSE.txt
 Requires-Dist: numpy
 Requires-Dist: tensorflow
-Requires-Dist: os
 Requires-Dist: random
 Requires-Dist: h5py
 Requires-Dist: math
