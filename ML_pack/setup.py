@@ -11,6 +11,6 @@ author_email = 'jtraywick8@gmail.com',
 url = 'https://github.com/Justint814/FRIB_ML',
 download_url = 'https://github.com/Justint814/FRIB_ML/archive/refs/tags/frib14.tar.gz',
 keywords = ['Machine', 'Learning', 'ML', 'train', 'data', 'level'],
-install_requires = ['numpy', 'tensorflow', 'os', 'random', 'h5py', 'math', 'shutil', 'subprocess', 'scikit-image'],
+install_requires = ['numpy', 'tensorflow', 'random', 'h5py', 'math', 'shutil', 'subprocess', 'scikit-image'],
 classifiers=['Development Status :: 3 - Alpha', 'Intended Audience :: Developers', 'Topic :: Software Development :: Build Tools', 'License :: OSI Approved :: MIT License', 'Programming Language :: Python :: 3', 'Programming Language :: Python :: 3.4', 'Programming Language :: Python :: 3.5', 'Programming Language :: Python :: 3.6',],
 )

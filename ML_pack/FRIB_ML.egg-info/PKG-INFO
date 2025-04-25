@@ -1,9 +1,9 @@
 Metadata-Version: 2.2
 Name: FRIB_ML
-Version: 0.15
+Version: 0.16
 Summary: This package is used for creating training data and training a machine learning model for the FRIB level scheme project
 Home-page: https://github.com/Justint814/FRIB_ML
-Download-URL: https://github.com/Justint814/FRIB_ML/archive/refs/tags/frib13.tar.gz
+Download-URL: https://github.com/Justint814/FRIB_ML/archive/refs/tags/frib14.tar.gz
 Author: Justin Traywick
 Author-email: jtraywick8@gmail.com
 License: MIT
