@@ -9,6 +9,7 @@ import os
 import math as m
 import tensorflow as tf
 import FRIB_ML as ML
+from FRIB_ML.data_process import h5_process
 
 #Functions:
 	
@@ -76,7 +77,7 @@ def extract_features(features, label):
 
 #Function to seperate labels from input features
 def extract_labels(features, label):
-	return labels
+	return label
 
 
 
