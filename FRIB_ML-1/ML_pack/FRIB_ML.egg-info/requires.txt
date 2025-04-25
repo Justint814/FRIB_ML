@@ -1,9 +1,0 @@
-numpy
-tensorflow
-os
-random
-h5py
-math
-shutil
-subprocess
-scikit-image
