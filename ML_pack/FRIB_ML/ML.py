@@ -9,7 +9,6 @@ import os
 import math as m
 import tensorflow as tf
 import FRIB_ML as ML
-from FRIB_ML.data_process import h5_process
 
 #Functions:
 	
@@ -30,11 +29,11 @@ def fetch_data(data_path):
 	label_path = data_path + "/label_out"
 	
 	#Confirm that they are of the same size
-	if count_file(label_path) != count_file(sim_path):
+	if ML.count_file(label_path) != ML.count_file(sim_path):
 		raise ValueError(f"{label_path} and {sim_path} must be the same size")
 	
 	#Store number of files in training set
-	num_files = count_file(label_path)
+	num_files = ML.count_file(label_path)
 	#Generate array of range between 1-len(training_set)
 	index_arr = np.arange(1,num_files+1,1)
 	#Shuffle array to yield random set order
